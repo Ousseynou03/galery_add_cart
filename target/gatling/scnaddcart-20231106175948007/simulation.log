@@ -1,4 +1,0 @@
-RUN	sncAddCart.ScnAddCart	scnaddcart	1699293588007	 	3.9.5
-USER	Sélection de la taille	START	1699293589395
-REQUEST		Get Product Taille	1699293589426	1699293589557	KO	status.find.is(200), but actually found 403
-USER	Sélection de la taille	END	1699293594609

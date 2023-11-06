@@ -1,7 +1,0 @@
-RUN	sncAddCart.ScnAddCart	scnaddcart	1699293944394	 	3.9.5
-USER	Sélection de la taille	START	1699293946277
-USER	Création du panier	START	1699293946309
-REQUEST		Get Product Taille	1699293946303	1699293946459	KO	status.find.is(200), but actually found 403
-REQUEST		Create Cart	1699293946303	1699293947393	KO	status.find.in([200, 209], 304), found 403
-USER	Sélection de la taille	END	1699293951489
-USER	Création du panier	END	1699293952419

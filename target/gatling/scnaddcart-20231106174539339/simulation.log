@@ -1,4 +1,0 @@
-RUN	sncAddCart.ScnAddCart	scnaddcart	1699292739339	 	3.9.5
-USER	Création du panier	START	1699292740819
-REQUEST		Create Cart	1699292740813	1699292740930	KO	status.find.in([200, 209], 304), found 403
-USER	Création du panier	END	1699292745971
