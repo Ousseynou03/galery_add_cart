@@ -1,0 +1,10 @@
+{
+  "simulation": "sncAddCart.ScnAddCart",
+  "simulationId": "scnaddcart-20231106180414336",
+  "start": 1699293855626,
+  "description": "test",
+  "scenarios": ["Ajout du produit au panier", "Sélection de la taille", "Affichage du mini panier", "Création du panier"],
+  "assertions": [
+
+  ]
+}

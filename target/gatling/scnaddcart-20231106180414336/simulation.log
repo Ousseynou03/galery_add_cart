@@ -1,0 +1,13 @@
+RUN	sncAddCart.ScnAddCart	scnaddcart	1699293854336	test	3.9.5
+USER	Ajout du produit au panier	START	1699293855626
+USER	Sélection de la taille	START	1699293855627
+ERROR	View Mini Cart: Failed to build request: No attribute named 'cart_guid' is defined 	1699293855631
+ERROR	Add to Cart: Failed to build request: No attribute named 'cart_guid' is defined 	1699293855631
+USER	Affichage du mini panier	START	1699293855635
+USER	Création du panier	START	1699293855648
+REQUEST		Get Product Taille	1699293855642	1699293855731	KO	status.find.is(200), but actually found 403
+REQUEST		Create Cart	1699293855642	1699293855731	KO	status.find.in([200, 209], 304), found 403
+USER	Affichage du mini panier	END	1699293860639
+USER	Ajout du produit au panier	END	1699293860639
+USER	Sélection de la taille	END	1699293860756
+USER	Création du panier	END	1699293860773
