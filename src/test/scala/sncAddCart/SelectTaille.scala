@@ -19,7 +19,6 @@ object SelectTaille {
     .exec(flushHttpCache)
     .exec(flushCookieJar)
     .feed(jddDataProductVariant)
-   // .feed(jddDataCustomerId)
     .exec { session =>
       println("Product Variant :" + session("product_variant_code").as[String])
       session
